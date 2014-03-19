@@ -16,7 +16,8 @@
                                         CaptionHeight="{Binding Source={x:Static shell:SystemParameters2.Current}, Path=WindowCaptionHeight}"
                                         CornerRadius="0"
                                         GlassFrameThickness="0"
-                                        UseAeroCaptionButtons="False" />
+                                        UseAeroCaptionButtons="False"
+                                        IgnoreTaskbarOnMaximize="True" />
                 </Setter.Value>
             </Setter>
             <Setter Property="Template">

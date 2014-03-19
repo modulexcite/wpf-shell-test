@@ -30,9 +30,7 @@ namespace wpf_shell_test
                 // remove resize border and window border, so we can move the window from top monitor position
                 windowChrome.ResizeBorderThickness = new Thickness(0);
                 // set the glass frame to 1, so we can have a full screen window that ignores the taskbar
-                windowChrome.GlassFrameThickness = new Thickness(1);
             } else {
-                windowChrome.GlassFrameThickness = new Thickness(0);
                 windowChrome.ResizeBorderThickness = SystemParameters2.Current.WindowResizeBorderThickness;
             }
         }
