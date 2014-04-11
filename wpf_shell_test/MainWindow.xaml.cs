@@ -237,5 +237,15 @@ namespace wpf_shell_test
                 return !(rect1 == rect2);
             }
         }
+
+        private void ButtonMinimize_OnClick(object sender, RoutedEventArgs e)
+        {
+            SystemCommands.MinimizeWindow(this);
+        }
+
+        private void ButtonClose_OnClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -41,6 +41,11 @@
     </Window.Resources>
 
     <Grid>
+        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Margin="10" Content="Minimize" Click="ButtonMinimize_OnClick"></Button>
+            <Button Margin="10" Content="Close" Click="ButtonClose_OnClick"></Button>
+        </StackPanel>
 
         <TextBlock Text="TEST RIGHT"
                    FontSize="38"
